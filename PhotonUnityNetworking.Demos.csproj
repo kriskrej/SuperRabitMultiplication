@@ -85,14 +85,6 @@
     <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Scripts\PlayerControl.cs" />
     <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Scripts\SlotLanes.cs" />
     <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\DemoSlotRacer\Scripts\SlotRacerSplashScreen.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunBasics-Tutorial\Scripts\CameraWork.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunBasics-Tutorial\Scripts\GameManager.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunBasics-Tutorial\Scripts\Launcher.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunBasics-Tutorial\Scripts\LoaderAnime.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunBasics-Tutorial\Scripts\PlayerAnimatorManager.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunBasics-Tutorial\Scripts\PlayerManager.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunBasics-Tutorial\Scripts\PlayerNameInputField.cs" />
-    <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunBasics-Tutorial\Scripts\PlayerUI.cs" />
     <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Forms\ConnectToRegionUIForm.cs" />
     <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Forms\CreateRoomUiForm.cs" />
     <Compile Include="Assets\Photon\PhotonUnityNetworking\Demos\PunCockpit\Forms\LoadLevelUIForm.cs" />

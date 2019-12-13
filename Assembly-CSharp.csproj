@@ -57,6 +57,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Code\NetworkConnector.cs" />
+    <Compile Include="Assets\Code\RabbitController.cs" />
+    <Compile Include="Assets\GameManager.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\EventSystemSpawner.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\OnStartDelete.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\Common\TextButtonTransition.cs" />
@@ -68,7 +71,6 @@
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\IgnoreUiRaycastWhenInactive.cs" />
     <Compile Include="Assets\Photon\PhotonChat\Demos\DemoChat\NamePickGui.cs" />
     <Compile Include="Assets\Photon\PhotonRealtime\Demos\DemoLoadBalancing\ConnectAndJoinRandomLb.cs" />
-    <Compile Include="Assets\RabbitController.cs" />
     <Compile Include="Assets\Rabbits\Demo\Scripts\AnimatorParamatersChange.cs" />
     <None Include="Assets\Photon\PhotonLibs\changes-library.txt" />
     <None Include="Assets\Photon\PhotonUnityNetworking\link.xml" />
@@ -656,18 +658,6 @@
     <ProjectReference Include="PhotonUnityNetworking.Utilities.PhotonPlayer.Editor.csproj">
       <Project>{9BA5D901-3A07-6AA1-6EC0-61058CC54888}</Project>
       <Name>PhotonUnityNetworking.Utilities.PhotonPlayer.Editor</Name>
-    </ProjectReference>
-    <ProjectReference Include="PunDemos.DemoHubEditor.csproj">
-      <Project>{FB9469AD-F4B2-E723-DA57-3B134F8CAC57}</Project>
-      <Name>PunDemos.DemoHubEditor</Name>
-    </ProjectReference>
-    <ProjectReference Include="PunDemos.DemoSlotcarEditor.csproj">
-      <Project>{64EF2570-798D-F3EA-721E-C00EC7A6F950}</Project>
-      <Name>PunDemos.DemoSlotcarEditor</Name>
-    </ProjectReference>
-    <ProjectReference Include="PhotonUnityNetworking.Demos.csproj">
-      <Project>{D3946913-3986-38FA-49FA-B84BC9D5FD20}</Project>
-      <Name>PhotonUnityNetworking.Demos</Name>
     </ProjectReference>
     <ProjectReference Include="PhotonUnityNetworking.Utilities.csproj">
       <Project>{E60CB930-67BE-51AC-5420-40CCC61A4346}</Project>

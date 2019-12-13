@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="273c3eef-14a3-49cd-b5bd-5b4da2060c27" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Rabbits/Prefabs/Rabbit 1.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Rabbits/Prefabs/Rabbit 1.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SuperRabitMultiplication/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SuperRabitMultiplication/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Photon/PhotonUnityNetworking/Resources/PhotonServerSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/RabbitController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/RabbitController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,17 +16,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/RabbitController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="18" column="54" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
+            <state relative-caret-position="266">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
               <folding>
-                <marker date="1576242626373" expanded="false" signature="6:78" ph="..." />
-                <marker date="1576242626373" expanded="true" signature="126:529" ph="{...}" />
-                <marker date="1576242626373" expanded="true" signature="163:210" ph="{...}" />
-                <marker date="1576242626373" expanded="true" signature="230:263" ph="{...}" />
-                <marker date="1576242626373" expanded="true" signature="291:527" ph="{...}" />
+                <marker date="1576243176107" expanded="false" signature="6:78" ph="..." />
+                <marker date="1576243176107" expanded="true" signature="126:501" ph="{...}" />
+                <marker date="1576243176107" expanded="true" signature="163:210" ph="{...}" />
+                <marker date="1576243176107" expanded="true" signature="230:263" ph="{...}" />
+                <marker date="1576243176107" expanded="true" signature="291:499" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/NetworkConnector.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="284">
+              <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+              <folding>
+                <marker date="1576243437494" expanded="true" signature="6:59" ph="..." />
+                <marker date="1576243437494" expanded="true" signature="119:1366" ph="{...}" />
+                <marker date="1576243437494" expanded="true" signature="138:347" ph="{...}" />
+                <marker date="1576243437494" expanded="true" signature="366:392" ph="{...}" />
+                <marker date="1576243437494" expanded="true" signature="414:567" ph="{...}" />
+                <marker date="1576243437494" expanded="true" signature="616:725" ph="{...}" />
+                <marker date="1576243437494" expanded="true" signature="791:903" ph="{...}" />
+                <marker date="1576243437494" expanded="true" signature="945:1064" ph="{...}" />
+                <marker date="1576243437494" expanded="true" signature="1144:1364" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -36,11 +59,13 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/RabbitController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/NetworkConnector.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/RabbitController.cs" />
+        <option value="$PROJECT_DIR$/Assets/NetworkConnector.cs" />
       </list>
     </option>
   </component>
@@ -121,12 +146,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576242100882</updated>
-      <workItem from="1576242109021" duration="519000" />
+      <workItem from="1576242109021" duration="1453000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="519000" />
+    <option name="totallyTimeSpent" value="1453000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -186,14 +211,32 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assets/RabbitController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="18" column="54" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
+        <state relative-caret-position="266">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
           <folding>
-            <marker date="1576242626373" expanded="false" signature="6:78" ph="..." />
-            <marker date="1576242626373" expanded="true" signature="126:529" ph="{...}" />
-            <marker date="1576242626373" expanded="true" signature="163:210" ph="{...}" />
-            <marker date="1576242626373" expanded="true" signature="230:263" ph="{...}" />
-            <marker date="1576242626373" expanded="true" signature="291:527" ph="{...}" />
+            <marker date="1576243176107" expanded="false" signature="6:78" ph="..." />
+            <marker date="1576243176107" expanded="true" signature="126:501" ph="{...}" />
+            <marker date="1576243176107" expanded="true" signature="163:210" ph="{...}" />
+            <marker date="1576243176107" expanded="true" signature="230:263" ph="{...}" />
+            <marker date="1576243176107" expanded="true" signature="291:499" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/NetworkConnector.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="39" column="13" selection-start-line="39" selection-start-column="13" selection-end-line="39" selection-end-column="13" />
+          <folding>
+            <marker date="1576243437494" expanded="true" signature="6:59" ph="..." />
+            <marker date="1576243437494" expanded="true" signature="119:1366" ph="{...}" />
+            <marker date="1576243437494" expanded="true" signature="138:347" ph="{...}" />
+            <marker date="1576243437494" expanded="true" signature="366:392" ph="{...}" />
+            <marker date="1576243437494" expanded="true" signature="414:567" ph="{...}" />
+            <marker date="1576243437494" expanded="true" signature="616:725" ph="{...}" />
+            <marker date="1576243437494" expanded="true" signature="791:903" ph="{...}" />
+            <marker date="1576243437494" expanded="true" signature="945:1064" ph="{...}" />
+            <marker date="1576243437494" expanded="true" signature="1144:1364" ph="{...}" />
           </folding>
         </state>
       </provider>
