@@ -6,10 +6,11 @@ using UnityEngine;
 public class GameManager : MonoBehaviourPunCallbacks {
     public GameObject playerPrefab;
 
+
     void Start() {
-        PhotonNetwork.Instantiate(playerPrefab.name, new Vector3(0f,5f,0f), Quaternion.identity, 0);
+        PhotonNetwork.Instantiate(playerPrefab.name, new Vector3(Random.Range(-5f, 5f), 0, 0), Quaternion.identity, 0);
     }
-    
+
     public override void OnPlayerEnteredRoom(Player other) {
         Debug.LogFormat("OnPlayerEnteredRoom() {0}", other.NickName); // not seen if you're the player connecting
 
