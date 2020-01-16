@@ -775,7 +775,7 @@ namespace Photon.Pun
 
             if (PhotonNetwork.LogLevel >= PunLogLevel.Full)
             {
-                Debug.Log("Network destroy Instantiated GO: " + go.name);
+                Debug.Log($"Network destroy Instantiated GO: {go.name}\n");
             }
 
             go.SetActive(false);            // PUN 2 disables objects before the return to the pool
