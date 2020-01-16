@@ -7,8 +7,10 @@ public class GameManager : MonoBehaviourPunCallbacks {
     public GameObject playerPrefab;
 
 
-    void Start() {
-        PhotonNetwork.Instantiate(playerPrefab.name, new Vector3(Random.Range(-5f, 5f), 0, 0), Quaternion.identity, 0);
+    public override void OnJoinedRoom() {
+        Debug.Log("On joined the room\n");
+        base.OnJoinedRoom();
+        PhotonNetwork.Instantiate(playerPrefab.name, new Vector3(Random.Range(-5f, 5f), 1, 0), Quaternion.identity, 0);
     }
 
     public override void OnPlayerEnteredRoom(Player other) {

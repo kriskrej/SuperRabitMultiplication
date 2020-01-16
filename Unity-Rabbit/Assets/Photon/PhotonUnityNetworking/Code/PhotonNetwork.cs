@@ -2210,7 +2210,7 @@ namespace Photon.Pun
 
             if (!InRoom)
             {
-                Debug.LogWarning("RaiseEvent(" + eventCode + ") failed. Your event is not being sent! Check if your are in a Room");
+                Debug.LogWarning("RaiseEvent(" + eventCode + ") failed. Your event is not being sent! Check if your are in a Room\n");
                 return false;
             }
 
